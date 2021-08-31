@@ -1,8 +1,7 @@
-### CRUD ASPNET CORE 5, 
+### CRUD ASPNET MVC CORE 5, 
 - Curso Eduardo Pires:
-  - CRUD de Produtos, Fornecedor e Endereço.
   - Projeto em 3 Camadas
-  - Injeção de Dependência
+  - AspNet Mvc Core 5  
   - Entity Framework
 ##
 
