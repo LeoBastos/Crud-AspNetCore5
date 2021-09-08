@@ -4,9 +4,13 @@
     ViewData["Title"] = "Lista de Produtos";
 }
 
-<h3 style="padding-top: 30px">@ViewData["Title"]</h3>
+<h1>@ViewData["Title"]</h1>
 <hr />
-<p>
+
+<vc:Summary></vc:Summary>
+
+<p supress-by-claim-name="Produto" supress-by-claim-value="Adicionar">
     <a class="btn btn-info" asp-action="Create">Novo Produto</a>
 </p>
-<partial name="_ListaProdutos" />
+
+<partial name="_ListaProdutos"/>
